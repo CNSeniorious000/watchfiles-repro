@@ -1,0 +1,14 @@
+[project]
+name = "watchfiles-repro"
+version = "0"
+requires-python = ">=3.10"
+dependencies = ["watchfiles~=1.0.4"]
+
+[tool.ruff]
+line-length = 200
+
+[tool.black]
+line-length = 200
+
+[tool.isort]
+line_length = 200
